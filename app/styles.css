@@ -1,9 +1,24 @@
 .body {
+  display: flex;
+  max-height: fit-content;
+  max-width: fit-content;
 }
 
 .header {
+  background-color: #1f2937;
+  display: flex;
+  max-height: 24px;
+  max-width: fit-content;
+}
+.logo {
+}
+.links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 .main {
+  background-color: #1f2937;
 }
 .info {
 }
